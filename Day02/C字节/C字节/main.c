@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int a = 1;
+    float f = 1.1;
+    char  c = 'a';
+    double d = 3.14;
+    long l = 100;
+    long long ll = 111111;
+    short s = 2;
+    printf("%d %d %d %d %d %d %d\n",sizeof(a),sizeof(f),sizeof(c),sizeof(d),sizeof(l),sizeof(ll),sizeof(s));
     return 0;
 }
+

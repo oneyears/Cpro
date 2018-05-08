@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    int a = 2;
+    float f = 3.1;
+    short s = 1;
+    long l = 100;
+    double d = 3.14;
+    char c = 'a';
+    cout<<sizeof(a)<<" "<< sizeof(f)<<" "<< sizeof(s)<<" "<< sizeof(l)<<" "<< sizeof(d)<<" "<< sizeof(c)<<" "<<endl;
     return 0;
 }
