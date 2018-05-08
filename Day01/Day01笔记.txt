@@ -1,0 +1,38 @@
+1、切换输入法
+   Windows系统： ctrl + shift 或 ctrl + space
+   苹果(Mac os x)系统： command + space(空格键)
+
+   苹果系统中的快捷键    command -> windows中的ctrl键  
+   比如： ctrl + c/v    对应苹果系统中的  command + c/v
+
+2、中英文输入法切换：  shift 
+
+3、Cocos2d-x 手机游戏 — C++  跨平台    一套代码可以运行在多个平台
+
+4、简单的C语言代码 //把英文翻译成中文 
+                 
+   #include <stdio.h>   // 标准输入输出头文件  standard  input & output
+                        // #include 头文件包含
+   int main()           // 主函数：程序的入口  有且只能有一个 only one 
+	{
+		printf(“HelloWorld!\n”);  //打印语句
+		return 0;
+	}
+
+5、C语言开发环境
+	（1）Linux系统： vi 和 gcc
+   （2）Windows系统：
+			a.  VC++ 6.0
+
+         b.  Visual studio 2012及以上版本
+
+   （3）Mac os x苹果系统： xcode 
+
+6、在Linux系统下编写编译C语言代码：
+	（1）vi hello.c 
+	（2）先按i或a键进入插入模式 在左下角出现“insert”
+	（3）写代码
+	（4）先按ESC键 然后再输入 :wq  —- write & quit
+	（5）gcc hello.c 编译代码 —- 检查错误  自动生成a.out文件
+	（6）./a.out运行  
+
